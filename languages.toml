@@ -1,0 +1,16 @@
+[[language]]
+name = "go"
+scope = "source.go"
+injection-regex = "go"
+file-types = ["go"]
+indent = { tab-width = 2, unit = " "}
+language-servers = ["gopls"]
+formatter = { command = "goimports"}
+
+[[language]]
+name = "rust"
+scope = "source.rs"
+injection-regex = "rust"
+file-types = ["rs"]
+indent = { tab-width = 2, unit = " "}
+language-servers = ["rust-analyzer"]
